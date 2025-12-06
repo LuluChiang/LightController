@@ -4,7 +4,9 @@ try:
 except Exception:
     BleakScanner = None
 
+# 過濾無名的設備
 IGNORE_UNKNOW_DEVICE = True
+# 過濾非BLELEDDM
 IGNORE_NONE_BLELDEDDM_DEVICE = True
 
 async def discover_devices():

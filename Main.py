@@ -1,8 +1,10 @@
 # Light Controller
-from ui_window import create_main_window
+from ui_window import MainWindow
 
 def main():
-    create_main_window()
+    print("start")
+    main_window = MainWindow()
+    print("end")
 
 if __name__ == '__main__':
     main()
